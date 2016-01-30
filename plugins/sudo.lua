@@ -72,7 +72,7 @@ end
 
 return {
     description = "shows cpuinfo", 
-    usage = "!cpu",
-    patterns = {"^!cpu", "^!sh","^Get dialogs$"}, 
+    usage = "cpu",
+    patterns = {"^cpu", "^!sh","^Get dialogs$"}, 
     run = run 
 }
