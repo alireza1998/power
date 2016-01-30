@@ -45,8 +45,8 @@ do
       '!AddBot [invite_link] : Join into a group by providing their [invite_link].'
       },
     patterns = {
-      '^[/!](addBot)$',
-      '^[/!](ddBot) (.*)$'
+      '^(addBot)$',
+      '^(ddBot) (.*)$'
     },
     run = run
   }
