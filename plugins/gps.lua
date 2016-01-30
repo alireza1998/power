@@ -19,9 +19,9 @@ function run(msg, matches)
 end
 
 return {
-  description = "generates a map showing the given GPS coordinates", 
-  usage = "!gps latitude,longitude: generates a map showing the given GPS coordinates",
-  patterns = {"^!gps ([^,]*)[,%s]([^,]*)$"}, 
+  description = "Generate Map for GPS Coordinates", 
+  usage = "/gps (latitude,longitude) : generate map by gps cods",
+  patterns = {"^[!/]gps ([^,]*)[,%s]([^,]*)$"}, 
   run = run 
 }
 
